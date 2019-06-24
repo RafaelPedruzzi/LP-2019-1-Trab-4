@@ -22,6 +22,3 @@ sse = sse(g,points)
 # Imprimindo arquivos de saida:
 print_Groups(g)
 print_SSE(sse)
-
-#print(points)
-#print(g)
