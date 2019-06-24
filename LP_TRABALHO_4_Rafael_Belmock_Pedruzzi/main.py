@@ -16,10 +16,12 @@ dist, points = read_Entry()
 # Realizando o algoritimo de agrupamento:
 g = make_Groups(dist,points)
 
-
+# Calculando o SSE do agrupamento:
+sse = sse(g,points)
 
 # Imprimindo arquivos de saida:
 print_Groups(g)
-#print_SSE()
+print_SSE(sse)
 
-print(g)
+#print(points)
+#print(g)
